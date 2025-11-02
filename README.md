@@ -108,36 +108,6 @@ mvn exec:java -Dexec.mainClass="org.example.DNSCollector" -Dexec.args="simulate"
 
 This will generate DNS query logs in a local file or database.
 
----
-
-### 5. Run Feature Extraction
-
-After collecting data:
-
-```bash
-mvn exec:java -Dexec.mainClass="org.example.FeatureExtractor"
-```
-
----
-
-### 6. Run Anomaly Detection
-
-Once features are generated:
-
-```bash
-mvn exec:java -Dexec.mainClass="org.example.AnomalyDetector"
-```
-
-Anomalies will be printed in the console and stored in the output file.
-
----
-
-## 🧮 Example Output
-
-| Client IP    | Query Count | Avg Domain Length | NXDOMAIN Ratio | Entropy | Label      |
-| ------------ | ----------- | ----------------- | -------------- | ------- | ---------- |
-| 192.168.1.10 | 450         | 27.3              | 0.05           | 3.9     | Normal     |
-| 192.168.1.12 | 2100        | 64.7              | 0.45           | 7.8     | Suspicious |
 
 ---
 
