@@ -3,7 +3,6 @@
 ![Java](https://img.shields.io/badge/Java-17%2B-blue?logo=java)
 ![Maven](https://img.shields.io/badge/Build-Maven-orange?logo=apachemaven)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-blue?logo=sqlite)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
 ---
