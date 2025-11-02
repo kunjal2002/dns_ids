@@ -1,0 +1,4 @@
+org\example\DNSCollector.class
+org\example\DNSPacketListener.class
+org\example\DNSPacketListener$1.class
+org\example\ListInterfaces.class
