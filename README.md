@@ -108,6 +108,20 @@ mvn exec:java -Dexec.mainClass="org.example.DNSCollector" -Dexec.args="simulate"
 
 This will generate DNS query logs in a local file or database.
 
+### 5. Run Feature Extraction
+
+Extract features from DNS query data (CSV file):
+
+```bash
+./RUN_FEATURE_EXTRACTION.sh
+```
+
+This will compute and display:
+- Query rate per client
+- Average and maximum subdomain length
+- Entropy of subdomain strings
+- Frequency of NXDOMAIN responses
+
 
 ---
 
